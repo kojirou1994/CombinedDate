@@ -6,6 +6,8 @@ extension CombinedDateTests {
     //   `swift test --generate-linuxmain`
     // to regenerate.
     static let __allTests__CombinedDateTests = [
+        ("testCompareDate", testCompareDate),
+        ("testIncompleteDate", testIncompleteDate),
         ("testReleaseDate", testReleaseDate),
     ]
 }
